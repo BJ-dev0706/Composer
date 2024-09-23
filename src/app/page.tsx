@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Main from "./component/Main";
+// import Main from "./component/Main";
 import Bg_white from "./component/Bg_white";
 import Bg_soft from "./component/Bg_soft";
 import Bg_dark from "./component/Bg-dark";
@@ -8,6 +8,8 @@ import Customize from "./component/Customize";
 import About from "./component/About";
 import Footer from "./component/Footer";
 import Testimonial from "./component/Testimonials";
+import Start from "./component/Start";
+import Header from "./component/Header";
 
 export default function Home() {
   return (
@@ -17,16 +19,19 @@ export default function Home() {
           Get the app →
         </Link>
       </div>
-      <div className="bg-[#ecedee]">
-        <Main />
-        <Bg_white />
-        <Bg_soft />
-        <Bg_dark />
-        <Bg_gray />
-        <Customize />
-        <Testimonial />
-        <About />
-        <Footer />
+      <div className="flex relative flex-col min-h-full bg-grey-soft bg-grid [--grid-opacity:0.16] [--grid-size:240px]">
+        <Header />
+        <main className="min-h-[95vh] overflow-x-clip">
+          <Start />
+          <Bg_white />
+          <Bg_soft />
+          <Bg_dark />
+          <Bg_gray />
+          <Customize />
+          <Testimonial />
+          <About />
+          <Footer />
+        </main>
       </div>
     </div>
   );
