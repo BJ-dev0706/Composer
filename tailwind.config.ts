@@ -39,6 +39,12 @@ const config: Config = {
         '1': '1s',
         '15': '1.5s',
       },
+      backgroundColor: {
+        'soft-1': 'rgb(236 237 238 / <alpha-value>)', // Opacity support
+      },
+      backgroundImage: {
+        
+      }
     },
   },
   plugins: [

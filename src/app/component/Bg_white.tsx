@@ -29,8 +29,8 @@ const Bg_white = () => {
             <div className="bg-black h-[1px] w-4/5 mx-auto"></div>
             <div className="flex items-center justify-center">
                 <div className="pt-8 pb-14">
-                    <div className="text-block-39">As seen on</div>
-                    <div className="flex items-center justify-around">
+                    <div className="text-block-39 text-center py-5">As seen on</div>
+                    <div className="flex items-center justify-around gap-10 md:flex-row flex-col">
                         <Image alt="" src={wsj} className="w-[100px]" />
                         <Image alt="" src={money} className="w-[100px]" />
                         <Image alt="" src={benzinga} className="w-[100px]" />

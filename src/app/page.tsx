@@ -1,7 +1,10 @@
 import Link from "next/link";
 import Main from "./component/Main";
 import Bg_white from "./component/Bg_white";
-import RippleButton from "./component/RippleButton";
+import Bg_soft from "./component/Bg_soft";
+import Bg_dark from "./component/Bg-dark";
+import Bg_gray from "./component/Bg_gray";
+import Customize from "./component/Customize";
 
 export default function Home() {
   return (
@@ -14,11 +17,10 @@ export default function Home() {
       <div className="bg-[#ecedee]">
         <Main />
         <Bg_white />
-      </div>
-      <div className="py-10 text-center">
-        <RippleButton>
-          Hi LolHP
-        </RippleButton>
+        <Bg_soft />
+        <Bg_dark />
+        <Bg_gray />
+        <Customize />
       </div>
     </div>
   );

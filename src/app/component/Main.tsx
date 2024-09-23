@@ -11,13 +11,13 @@ const Main = () => {
                     max-[991px]:pb-[56px] max-[991px]:items-end    
                 ">
                 <div className="
-                        relative block mx-auto px-[24px] 
+                        relative mx-auto px-[24px] 
                         max-[1440px]:max-w-[1600px] max-[1440px]:px-[32px]
                         max-[479px]:px-[16px] 
                         max-[991px]:px-[32px]
                     ">
                     <div className="
-                        relative top-[50px] block flex-col justify-center
+                        relative top-[50px] flex-col justify-center
                         max-[479px]:relative  max-[479px]:top-0
                     ">
                         <h1 className="inline-block text-[64px] leading-[.5em] font-[700] !z-1001 max-[479px]:text-[40px]">
