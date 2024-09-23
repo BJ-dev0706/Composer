@@ -24,7 +24,7 @@ const Bg_dark = () => {
                                     <span className="link-arrow-left">
                                         <svg width="192" height="192" viewBox="0 0 16 14" fill="none"
                                             xmlns="http://www.w3.org/2000/svg" style={{width:"16px",  height:"16px"}}>
-                                            <g clip-path="url(#a)">
+                                            <g clipPath="url(#a)">
                                                 <path
                                                     d="m8.49 13.263-1.278-1.264 4.439-4.44H.5V5.714h11.15L7.213 1.281 8.49.01l6.627 6.626-6.627 6.627Z"
                                                     fill="currentColor"></path>
@@ -34,7 +34,7 @@ const Bg_dark = () => {
                                     <span className="link-arrow-right">
                                         <svg width="192" height="192" viewBox="0 0 16 14" fill="none"
                                             xmlns="http://www.w3.org/2000/svg" style={{width:"16px",  height:"16px"}}>
-                                            <g clip-path="url(#a)">
+                                            <g clipPath="url(#a)">
                                                 <path
                                                     d="m8.49 13.263-1.278-1.264 4.439-4.44H.5V5.714h11.15L7.213 1.281 8.49.01l6.627 6.626-6.627 6.627Z"
                                                     fill="currentColor"></path>

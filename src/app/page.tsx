@@ -5,6 +5,9 @@ import Bg_soft from "./component/Bg_soft";
 import Bg_dark from "./component/Bg-dark";
 import Bg_gray from "./component/Bg_gray";
 import Customize from "./component/Customize";
+import About from "./component/About";
+import Footer from "./component/Footer";
+import Testimonial from "./component/Testimonials";
 
 export default function Home() {
   return (
@@ -21,6 +24,9 @@ export default function Home() {
         <Bg_dark />
         <Bg_gray />
         <Customize />
+        <Testimonial />
+        <About />
+        <Footer />
       </div>
     </div>
   );

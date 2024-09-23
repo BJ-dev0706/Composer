@@ -81,13 +81,13 @@ const Customize = () => {
                                 </svg>
                             </div>
                         </span>
-                        <Image alt="" src="" width="2090" height="1472"
+                        <Image alt="" src="/editor-backtest-mock.webp" width="2090" height="1472"
                             decoding="async" data-nimg="future" className="shadow image-23 shadow-home" loading="lazy" style={{color:"transparent"}} />
                     </div>
                     <div className="div-block-123">
                         <p className="text-3xl font-semibold mb-2">Learn and adapt</p>
                         <p className="paragraph-2 soft">Backtest your strategy. Compare it to a benchmark or to another strategy.<br /><br />Learn from what you see. Tinker and try it out again. And again.</p>
-                        <Image alt="A stacked graph of the changes in strategy holdings over time" src=""
+                        <Image alt="A stacked graph of the changes in strategy holdings over time" src="/editor-allocationsgraph.webp"
                             width="970" height="544" decoding="async" data-nimg="future" className="shadow allocationsgraph shadow-home" loading="lazy" style={{color:"transparent"}} />
                         <p className="caption-reg soft">The Historical Allocation Graph visualizes movements in a symphony’s holdings over time.</p>
                     </div>
@@ -98,11 +98,10 @@ const Customize = () => {
             <div className="inner">
                 <div className="w-layout-grid grid-11">
                     <div id="w-node-f41bb856-555a-f003-1d9e-53ba11ac4c83-1f680737" className="editor-feature block-4">
-                        <Image alt="UI element showing an example of strategy value: initial symphony value ($10,000), total fees ($14.02), total slippage ($1,684.08) and final value ($26,205.69)"
-                            src="" width="746" height="344" decoding="async" data-nimg="future" className="shadow modelfees-mobile shadow-home rounded-4" loading="lazy"
+                        <Image alt="Description" src="/" width="746" height="344" decoding="async" data-nimg="future" className="shadow modelfees-mobile shadow-home rounded-4" loading="lazy"
                             style={{color:"transparent"}} />
                         <Image alt="UI element showing an example of strategy value: initial symphony value ($10,000), total fees ($14.02), total slippage ($1,684.08) and final value ($26,205.69)"
-                            src="/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Feditor-modelfees.63bd6f17.png&amp;w=3840&amp;q=75" width="1250" height="174" decoding="async" data-nimg="future" className="shadow _w-9-12 shadow-home rounded-4 modelfees" loading="lazy"
+                            src="/editor.webp" width="1250" height="174" decoding="async" data-nimg="future" className="shadow _w-9-12 shadow-home rounded-4 modelfees" loading="lazy"
                             style={{color:"transparent"}} />
                         <div className="editor-feature-desc">
                             <p className="font-semibold paragraph-2">Model the value of your symphony</p>
@@ -110,7 +109,7 @@ const Customize = () => {
                         </div>
                     </div>
                     <div id="w-node-f41bb856-555a-f003-1d9e-53ba11ac4c88-1f680737" className="editor-feature share">
-                        <Image alt=""  src=""
+                        <Image alt=""  src="/editor-share.webp"
                             width="342" height="417" decoding="async" data-nimg="future" className="w-40" loading="lazy" style={{color:"transparent"}} />
                         <div className="_w-50 sm-w-100">
                             <p className="font-semibold paragraph-2">Share what you build</p>

@@ -31,7 +31,7 @@ const Main = () => {
                             </span>
                         </h1>
                         <div className="
-                            w-1/2 max-w-[740px] mb-[56px] text-[36px] leading-[1.2em] max-[479px]:tracking-[0.01em]
+                            w-1/2 max-w-[740px] mb-[56px] text-[36px] leading-[1.2em]
                             max-[991px]:w-full max-[991px]:text-[32px]
                             max-[479px]:relative max-[479px]:z-[10] max-[479px]:w-full max-[479px]:text-[24px] max-[479px]:tracking-[0.02em]
                         ">
