@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  --bg_green: #1ec072;
+  --bg_pink: #f6609f;
+  --bg_yellow: #ffbb38;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  .animate-gradient {
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+  }
+}
+
+@layer utilities {
+  .custom-bg-green {
+    background: linear-gradient(90deg, var(--bg_green) 20px, transparent 1%) 50%, 
+                linear-gradient(var(--bg_green) 20px, transparent 1%) 50%, #000;
+    background-size: 21px 21px;
+  }
+  .custom-bg-pink {
+    background: linear-gradient(90deg, var(--bg_pink) 20px, transparent 1%) 50%, 
+                linear-gradient(var(--bg_pink) 20px, transparent 1%) 50%, #000;
+    background-size: 21px 21px;
+  }
+  .custom-bg-yellow {
+    background: linear-gradient(90deg, var(--bg_yellow) 20px, transparent 1%) 50%, 
+                linear-gradient(var(--bg_yellow) 20px, transparent 1%) 50%, #000;
+    background-size: 21px 21px;
+  }
+}
+
+.link-arrow-group .link-arrow-left {
+  transform: translate(0);
+  opacity: 0
+}
+
+.link-arrow-group .link-arrow-left,.link-arrow-group .link-arrow-right {
+  transition: all .5s cubic-bezier(.25,.25,.08,1.08);
+  margin-top: 1px
+}
+
+.link-arrow-group:hover .link-arrow-left {
+  transform: translate(100%);
+  opacity: 1;
+}
+
+.link-arrow-group:hover .link-arrow-right {
+  transform: translate(100%);
+  opacity: 0
+}
